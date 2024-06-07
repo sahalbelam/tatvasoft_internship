@@ -1,7 +1,7 @@
-﻿using UserRegistrationApi.Models;
+﻿using UserBackend.Models;
 using System.Collections.Generic;
 
-namespace UserRegistrationApi.Data.Repositories.IRepository;
+namespace UserBackend.Data.Repositories.IRepository;
 public interface IUserRepository
 {
     void AddUser(User user);

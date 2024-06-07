@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "bniN/7WxS5CwbxLN9UomHrkjh1AS1TmLSbFKq5AQEog=",
-  "Source": "UserRegistrationApi",
-  "BasePath": "_content/UserRegistrationApi",
+  "Hash": "DGKsd+dIEXF905vo7Zq+1Igf/54dUs0WXUjupEICC40=",
+  "Source": "UserBackend",
+  "BasePath": "_content/UserBackend",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

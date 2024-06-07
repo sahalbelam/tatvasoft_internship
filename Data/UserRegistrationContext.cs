@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using UserRegistrationApi.Models;
+using UserBackend.Models;
 
-namespace UserRegistrationApi.Data
+namespace UserBackend.Data
 {
     public class UserRegistrationContext : DbContext
     {

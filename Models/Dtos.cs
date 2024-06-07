@@ -1,4 +1,4 @@
-﻿namespace UserRegistrationApi.Models.Dtos
+﻿namespace UserBackend.Models.Dtos
 {
     public class UserDto
     {

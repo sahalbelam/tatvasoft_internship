@@ -1,4 +1,4 @@
-﻿using UserRegistrationApi.Models;
+﻿using UserBackend.Models;
 
 public class User
 {

@@ -4,10 +4,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Text;
-using UserRegistrationApi.Data;
-using UserRegistrationApi.Data.Repositories;
-using UserRegistrationApi.Data.Repositories.IRepository;
-using UserRegistrationApi.Models;
+using UserBackend.Data;
+using UserBackend.Data.Repositories;
+using UserBackend.Data.Repositories.IRepository;
+using UserBackend.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 

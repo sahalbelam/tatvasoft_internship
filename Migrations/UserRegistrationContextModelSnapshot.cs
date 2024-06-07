@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-using UserRegistrationApi.Data;
+using UserBackend.Data;
 
 #nullable disable
 
-namespace UserRegistrationApi.Migrations
+namespace UserBackend.Migrations
 {
     [DbContext(typeof(UserRegistrationContext))]
     partial class UserRegistrationContextModelSnapshot : ModelSnapshot
@@ -48,7 +48,7 @@ namespace UserRegistrationApi.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("UserRegistrationApi.Models.Role", b =>
+            modelBuilder.Entity("UserBackend.Models.Role", b =>
                 {
                     b.Property<int>("RoleId")
                         .ValueGeneratedOnAdd()
@@ -71,7 +71,7 @@ namespace UserRegistrationApi.Migrations
 
             modelBuilder.Entity("User", b =>
                 {
-                    b.HasOne("UserRegistrationApi.Models.Role", "Role")
+                    b.HasOne("UserBackend.Models.Role", "Role")
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)

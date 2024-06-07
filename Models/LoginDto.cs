@@ -1,5 +1,5 @@
 ﻿// Models/Dtos/LoginDto.cs
-namespace UserRegistrationApi.Models.Dtos
+namespace UserBackend.Models.Dtos
 {
     public class LoginDto
     {

@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TatvaSoft\\Day3\\UserRegistrationApi\\UserRegistrationApi\\UserRegistrationApi.csproj": {}
+    "C:\\ED\\APIDemo\\UserBackend\\UserBackend\\UserBackend.csproj": {}
   },
   "projects": {
-    "D:\\TatvaSoft\\Day3\\UserRegistrationApi\\UserRegistrationApi\\UserRegistrationApi.csproj": {
+    "C:\\ED\\APIDemo\\UserBackend\\UserBackend\\UserBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TatvaSoft\\Day3\\UserRegistrationApi\\UserRegistrationApi\\UserRegistrationApi.csproj",
-        "projectName": "UserRegistrationApi",
-        "projectPath": "D:\\TatvaSoft\\Day3\\UserRegistrationApi\\UserRegistrationApi\\UserRegistrationApi.csproj",
-        "packagesPath": "C:\\Users\\radhe\\.nuget\\packages\\",
-        "outputPath": "D:\\TatvaSoft\\Day3\\UserRegistrationApi\\UserRegistrationApi\\obj\\",
+        "projectUniqueName": "C:\\ED\\APIDemo\\UserBackend\\UserBackend\\UserBackend.csproj",
+        "projectName": "UserBackend",
+        "projectPath": "C:\\ED\\APIDemo\\UserBackend\\UserBackend\\UserBackend.csproj",
+        "packagesPath": "C:\\Users\\belam\\.nuget\\packages\\",
+        "outputPath": "C:\\ED\\APIDemo\\UserBackend\\UserBackend\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\radhe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\belam\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,7 +57,19 @@
               "target": "Package",
               "version": "[8.0.5, )"
             },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite": {
               "target": "Package",
               "version": "[8.0.4, )"
             },
@@ -96,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,4 +1,4 @@
-﻿namespace UserRegistrationApi.Models;
+﻿namespace UserBackend.Models;
 
 public class UserRoleDto
 {

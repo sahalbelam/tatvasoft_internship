@@ -1,8 +1,8 @@
 ﻿// Controllers/UsersController.cs
 using Microsoft.AspNetCore.Mvc;
-using UserRegistrationApi.Data.Repositories.IRepository;
-using UserRegistrationApi.Models;
-using UserRegistrationApi.Models.Dtos;
+using UserBackend.Data.Repositories.IRepository;
+using UserBackend.Models;
+using UserBackend.Models.Dtos;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.IdentityModel.Tokens;
 using System;
@@ -12,7 +12,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 
-namespace UserRegistrationApi.Controllers
+namespace UserBackend.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -64,14 +64,20 @@ namespace UserRegistrationApi.Controllers
         }
         private string GenerateJwtToken(User user)
         {
-            var key = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_configuration["Jwt:Key"]));
+            var jwtKey = _configuration["Jwt:Key"];
+            if (string.IsNullOrEmpty(jwtKey))
+            {
+                throw new InvalidOperationException("JWT Key is not configured properly.");
+            }
+
+            var key = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(jwtKey));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             var claims = new[]
             {
                 new Claim(JwtRegisteredClaimNames.Sub, user.Username),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-                new Claim(ClaimTypes.Role, "User") // You can set roles dynamically if needed
+                new Claim(ClaimTypes.Role, user.Role?.RoleName ?? "User")
             };
 
             var token = new JwtSecurityToken(
@@ -83,6 +89,7 @@ namespace UserRegistrationApi.Controllers
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
+
 
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginDto loginDto)
@@ -128,11 +135,12 @@ namespace UserRegistrationApi.Controllers
 
             return Ok(userDto);
         }
-        [HttpGet("all-in-memory")]
-        public IActionResult GetAllUsersInMemory()
-        {
-            return Ok(_usersInMemory.ToList());
-        }
+        
+        // [HttpGet("all-in-memory")]
+        // public IActionResult GetAllUsersInMemory()
+        // {
+        //     return Ok(_usersInMemory.ToList());
+        // }
 
         [HttpGet("all-from-database")]
         public IActionResult GetAllUsersFromDatabase()
