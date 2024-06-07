@@ -1,0 +1,196 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dev\\Downloads\\Day3-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|c:\\users\\dev\\downloads\\day3-main\\bookproject\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|solutionrelative:bookproject\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|c:\\users\\dev\\downloads\\day3-main\\bookproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|solutionrelative:bookproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|c:\\users\\dev\\downloads\\day3-main\\bookproject\\models\\userroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|solutionrelative:bookproject\\models\\userroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|c:\\users\\dev\\downloads\\day3-main\\bookproject\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|solutionrelative:bookproject\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|c:\\users\\dev\\downloads\\day3-main\\bookproject\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|solutionrelative:bookproject\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|c:\\users\\dev\\downloads\\day3-main\\bookproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|solutionrelative:bookproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|c:\\users\\dev\\downloads\\day3-main\\bookproject\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|solutionrelative:bookproject\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|c:\\users\\dev\\downloads\\day3-main\\bookproject\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|solutionrelative:bookproject\\service\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|c:\\users\\dev\\downloads\\day3-main\\bookproject\\data\\bookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|solutionrelative:bookproject\\data\\bookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|c:\\users\\dev\\downloads\\day3-main\\bookproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F2BD9D55-588D-4FDD-9104-8FC91CF40DA8}|BookProject\\BookProject.csproj|solutionrelative:bookproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dev\\Downloads\\Day3-main\\BookProject\\Migrations\\20240524085243_createUserTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookProject\\Migrations\\20240524085243_createUserTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRoleDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Downloads\\Day3-main\\BookProject\\Models\\UserRoleDto.cs",
+              "RelativeDocumentMoniker": "BookProject\\Models\\UserRoleDto.cs",
+              "ToolTip": "C:\\Users\\Dev\\Downloads\\Day3-main\\BookProject\\Models\\UserRoleDto.cs",
+              "RelativeToolTip": "BookProject\\Models\\UserRoleDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T16:57:18.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Downloads\\Day3-main\\BookProject\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "BookProject\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\Dev\\Downloads\\Day3-main\\BookProject\\Models\\Role.cs",
+              "RelativeToolTip": "BookProject\\Models\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T16:41:20.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Downloads\\Day3-main\\BookProject\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BookProject\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Dev\\Downloads\\Day3-main\\BookProject\\Models\\User.cs",
+              "RelativeToolTip": "BookProject\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T16:41:14.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Downloads\\Day3-main\\BookProject\\Data\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "BookProject\\Data\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Dev\\Downloads\\Day3-main\\BookProject\\Data\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "BookProject\\Data\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T16:26:28.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Downloads\\Day3-main\\BookProject\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "BookProject\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Dev\\Downloads\\Day3-main\\BookProject\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "BookProject\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T16:25:45.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dev\\Downloads\\Day3-main\\BookProject\\appsettings.json",
+              "RelativeDocumentMoniker": "BookProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\Dev\\Downloads\\Day3-main\\BookProject\\appsettings.json",
+              "RelativeToolTip": "BookProject\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-25T16:07:50.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Downloads\\Day3-main\\BookProject\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "BookProject\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\Dev\\Downloads\\Day3-main\\BookProject\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "BookProject\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T09:40:11.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Downloads\\Day3-main\\BookProject\\Service\\BookService.cs",
+              "RelativeDocumentMoniker": "BookProject\\Service\\BookService.cs",
+              "ToolTip": "C:\\Users\\Dev\\Downloads\\Day3-main\\BookProject\\Service\\BookService.cs",
+              "RelativeToolTip": "BookProject\\Service\\BookService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T09:39:50.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Downloads\\Day3-main\\BookProject\\Data\\BookDbContext.cs",
+              "RelativeDocumentMoniker": "BookProject\\Data\\BookDbContext.cs",
+              "ToolTip": "C:\\Users\\Dev\\Downloads\\Day3-main\\BookProject\\Data\\BookDbContext.cs",
+              "RelativeToolTip": "BookProject\\Data\\BookDbContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T08:55:58.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Downloads\\Day3-main\\BookProject\\Program.cs",
+              "RelativeDocumentMoniker": "BookProject\\Program.cs",
+              "ToolTip": "C:\\Users\\Dev\\Downloads\\Day3-main\\BookProject\\Program.cs",
+              "RelativeToolTip": "BookProject\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T08:54:48.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240524085243_createUserTable.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\Downloads\\Day3-main\\BookProject\\Migrations\\20240524085243_createUserTable.cs",
+              "RelativeDocumentMoniker": "BookProject\\Migrations\\20240524085243_createUserTable.cs",
+              "ToolTip": "C:\\Users\\Dev\\Downloads\\Day3-main\\BookProject\\Migrations\\20240524085243_createUserTable.cs",
+              "RelativeToolTip": "BookProject\\Migrations\\20240524085243_createUserTable.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T08:52:43.346Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
